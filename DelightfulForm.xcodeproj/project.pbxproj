@@ -12,6 +12,9 @@
 		05E206CD20CC523B00E03DAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E206CB20CC523B00E03DAF /* Main.storyboard */; };
 		05E206CF20CC524000E03DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05E206CE20CC524000E03DAF /* Assets.xcassets */; };
 		05E206D220CC524000E03DAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E206D020CC524000E03DAF /* LaunchScreen.storyboard */; };
+		05E206DB20CC54E700E03DAF /* TextEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E206DA20CC54E700E03DAF /* TextEntry.swift */; };
+		05E206DD20CC5D5B00E03DAF /* SingleSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E206DC20CC5D5B00E03DAF /* SingleSelection.swift */; };
+		05E206DF20CC5DFA00E03DAF /* MultipleSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E206DE20CC5DFA00E03DAF /* MultipleSelection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		05E206CE20CC524000E03DAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05E206D120CC524000E03DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05E206D320CC524000E03DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05E206DA20CC54E700E03DAF /* TextEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEntry.swift; sourceTree = "<group>"; };
+		05E206DC20CC5D5B00E03DAF /* SingleSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSelection.swift; sourceTree = "<group>"; };
+		05E206DE20CC5DFA00E03DAF /* MultipleSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSelection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +62,23 @@
 			children = (
 				05E206C720CC523B00E03DAF /* AppDelegate.swift */,
 				05E206C920CC523B00E03DAF /* ViewController.swift */,
+				05E206D920CC526300E03DAF /* Views */,
 				05E206CB20CC523B00E03DAF /* Main.storyboard */,
 				05E206CE20CC524000E03DAF /* Assets.xcassets */,
 				05E206D020CC524000E03DAF /* LaunchScreen.storyboard */,
 				05E206D320CC524000E03DAF /* Info.plist */,
 			);
 			path = DelightfulForm;
+			sourceTree = "<group>";
+		};
+		05E206D920CC526300E03DAF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				05E206DA20CC54E700E03DAF /* TextEntry.swift */,
+				05E206DC20CC5D5B00E03DAF /* SingleSelection.swift */,
+				05E206DE20CC5DFA00E03DAF /* MultipleSelection.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05E206DD20CC5D5B00E03DAF /* SingleSelection.swift in Sources */,
 				05E206CA20CC523B00E03DAF /* ViewController.swift in Sources */,
+				05E206DB20CC54E700E03DAF /* TextEntry.swift in Sources */,
+				05E206DF20CC5DFA00E03DAF /* MultipleSelection.swift in Sources */,
 				05E206C820CC523B00E03DAF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
